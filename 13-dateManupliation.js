@@ -1,6 +1,7 @@
 function dateMethods() {
 
-    const currentDate = new Date();
+    const currentDate = new Date();//date is a prebild class whoes properties we store in a variable , 
+    // which can be later used to call various pre build functionality of dtae class
 
     console.log("Current Date:", currentDate);//output - Current Date: 2024-09-24T08:45:21.258Z
 

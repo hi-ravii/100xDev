@@ -24,7 +24,7 @@ function objectMethods(obj) {
 
  
 
-    let hasProp = obj.hasOwnProperty("property");
+    let hasProp = obj.hasOwnProperty("property");//to check if we have any key with name as property
 
     console.log("After hasOwnProperty():", hasProp);//output - After hasOwnProperty(): false
 
