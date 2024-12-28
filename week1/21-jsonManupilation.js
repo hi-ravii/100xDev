@@ -49,3 +49,14 @@ function jsonMethods(jsonString) {
  
 
   jsonMethods(sampleJSONString);
+
+//   We can do it by sending it as a string.
+// To be able to share data back and forth, we have to interchange the data to a string and back to JSON object.
+// JS gives you inbuilt methods
+// JSON.parse()
+// JSON.stringify()
+// const stringifiedUser = JSON.stringify(user); -> Converts JSON to string console.log(stringifiedUser) -> '{"name":"Aman","age":24,"gender":"male"}'
+
+// And now to convert the string back to JSON.
+
+// const userObject = JSON.parse(stringifiedUser); -> Converts String to JSON console.log(userObject) -> {name: 'Aman', age: 24, gender: 'male'}

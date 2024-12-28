@@ -1,4 +1,9 @@
 // Object Methods Explanation
+// Object.keys(obj) -> Class Object and a static method keys which returns an array of the keys in the Object
+// Object.values(obj) -> Class Object and a static method values which returns an array of the values in the Object
+// Object.entries(obj) -> Class Object and a static method entries which returns key value pair in an array
+// obj.hasOwnProperty('propertyName') -> Returns true/false
+// Object.assign({}, obj, {newProperty: "newValue" }) -> Helps you merge two objects
 
 function objectMethods(obj) {
 

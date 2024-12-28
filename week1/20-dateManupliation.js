@@ -1,3 +1,7 @@
+// Global Class, can be called directly, present to be used outside the box.
+// Create new object and then do a bunch of things.
+// Create a new Date Object
+
 function dateMethods() {
 
     const currentDate = new Date();//date is a prebild class whoes properties we store in a variable , 
