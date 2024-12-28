@@ -30,7 +30,7 @@ function displayResultPassive(data) {
 // - You are only allowed to call one function after this
 // - How will you display Result of a sum?
 
-const ans = sum(1, 2);
+const ans1 = sum(1, 2);
 
 
 
@@ -50,8 +50,8 @@ function displayResultPassive(data) {
     return `Sum's Result is: ${data}`;
 }
 
-const ans = sum(1, 2, displayResult);
-console.log(ans);
+const ans2 = sum(1, 2, displayResult);
+console.log(ans2);
 
 
 
@@ -65,8 +65,8 @@ function calculateArithmetic(a, b, type) {
         return a - b;
     }
 }
-const value = calculateArithmetic(1, 2, "minus");
-console.log(value);
+const value1 = calculateArithmetic(1, 2, "minus");
+console.log(value1);
 
 
 
@@ -87,8 +87,8 @@ function sum(a, b) {
 function sub(a, b) {
     return a - b
 }
-const value = calculateArithmetic(1, 2, sum);
-console.log(value);
+const value2 = calculateArithmetic(1, 2, sum);
+console.log(value2);
 
 
 
