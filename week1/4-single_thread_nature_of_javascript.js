@@ -33,6 +33,7 @@ function longTask() {
     while (Date.now() - start < 3000) {} // Block for 3 seconds
     console.log("Finished Long Task");
 }
+
 console.log("Start");
 longTask(); // Blocks the thread for 3 seconds
 console.log("End");
