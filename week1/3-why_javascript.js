@@ -21,6 +21,8 @@
             }).listen(3000);
             // Starts a server on port 3000.
 
+            
+
     4. **Real-Time Applications**:
         - JavaScript handles real-time tasks like chat apps and live notifications with ease.
         - Example:
